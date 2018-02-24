@@ -14,7 +14,7 @@ var simpleString: String
 
 //Initialize an array using an Array Literal
 
-fruitbasket = ["Kiwi", "Mango", "Strawberry", "Banana"]
+fruitbasket = ["Kiwi", "Mango", "Strawberry", "Banana", "Peaches"]
 
 //print array
 
@@ -29,3 +29,24 @@ for name in fruitbasket{
 
 print(fruitbasket[1])
 print(fruitbasket[0])
+
+//Part 8, Start of Assignment #4
+
+var numberPile: [String]
+
+numberPile = ["One", "Two", "Three", "Four", "Five"]
+
+print(numberPile)
+for fave in numberPile{
+    print ("My favorite number is " + fave + "!")
+}
+
+var numberPileTwo: [Double] = [1, 2, 3, 4, 5, 6]
+
+let removed = numberPileTwo.remove(at: 2)
+print(numberPileTwo)
+
+var numbers = [2, 4, 6, 8, 10]
+numbers.append(420)
+
+print(numbers)
